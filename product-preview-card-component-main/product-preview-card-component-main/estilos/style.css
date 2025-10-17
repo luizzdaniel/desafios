@@ -3,10 +3,42 @@
 * {
     margin: 0px;
     padding: 0%;
+    box-sizing: border-box;
+   
 }
 
+body, html {
+    background-color: #ebc8a6;
+    width: 100vw;
+    height: 100vh;
+}
 
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
 
 section {
-    background-color: rebeccapurple
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 200px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+div#imagem {
+    background-image: url(../images/image-product-mobile.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#infor > h1 {
+    text-align: center;
 }
